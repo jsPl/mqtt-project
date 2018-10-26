@@ -1,0 +1,10 @@
+server:
+  port: 9000
+
+spring:
+  influxdb:
+    url: http://localhost:8086
+    username: admin
+    password: admin
+    database: mqttdata
+    retention-policy: autogen
